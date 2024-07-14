@@ -1,0 +1,51 @@
+header{
+  height: 100vh;
+/*  rgb(214, 94, 102); */
+}
+          
+.w-200{
+  width: 200px;
+}
+.singer-oc,.w-200{
+  display: none;
+}
+aside i.fa-x:hover,aside li:hover{
+  /* color:rgba(214, 46, 51, 0.6) !important; */
+  cursor: pointer;
+}
+.logo-img{
+  width: 50px;
+}
+i{
+  cursor:pointer;
+}
+
+li.Search{
+  top: 0;
+}
+li.Categories{
+  top: 40px;
+}
+li.Area{
+  top: 80px;
+}
+li.Ingredients{
+  top: 120px;
+}
+li.Contact-Us{
+  top: 160px;
+}
+
+
+.cat-caption{
+  top: 100%;
+  background-color: rgba(255, 255, 255,.5);
+  transition: all .5s;
+  /* display: none; */
+}
+.inner:hover .cat-caption{
+
+display: block;
+    top: 0;
+  }
+
